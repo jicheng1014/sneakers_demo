@@ -8,7 +8,7 @@ bundle install
 cp config/database.yml.example config/database.yml
 # **edit database.yml**
 bundle exec rake db:create
-bundle exec rake db:migrate
+bundle exec rake db:migrate 
 ```
 
 * 第 2 步 启动 worker 处理进程
