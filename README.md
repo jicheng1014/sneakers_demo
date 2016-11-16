@@ -32,3 +32,4 @@ bundle exec rake db:migrate
 
   - `MessagePublisher.remote_call("demo.rpc_server", 102)`
   - `MessagePublisher.remote_call("demo.posts_count", 0)`
+ 
