@@ -34,3 +34,4 @@ bundle exec rake db:migrate
   - `MessagePublisher.remote_call("demo.posts_count", 0)`
  
  
+ 
