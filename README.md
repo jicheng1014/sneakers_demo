@@ -7,7 +7,7 @@
 * 第 1 步 初始化环境
 ```ruby
 bundle install
-cp config/database.yml.example config/database.yml
+cp config/database.yml.example config/database.yml 
 # **edit database.yml**
 bundle exec rake db:create
 bundle exec rake db:migrate 
